@@ -36,8 +36,10 @@ def calculate_moc(tads1, tads2):
             P = tads1[i][1]-tads1[i][0]
             Q = tads2[j][1]-tads2[j][0]
             score += (F/P * F/Q)
-
-    moc = 1/(np.sqrt(len(tads1)*len(tads2))-1) * (score-1)
+    if np.sqrt(len(tads1)*len(tads2)) != 1:
+        moc = 1/(np.sqrt(len(tads1)*len(tads2))-1) * (score-1)
+    else:
+        moc = 0
     return(moc)
 
 # Genome coverage with domains
