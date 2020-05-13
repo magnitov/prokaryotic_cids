@@ -27,7 +27,7 @@ lapply(name.list, function(rep) {
     topdom.res.bed <- topdom.res.bed[which(topdom.res.bed$name == "domain" & 
                    (topdom.res.bed$chromEnd - topdom.res.bed$chromStart) >= 4*resolution), -4]
     write.table(topdom.res.bed, file.path(folder, "TopDom", 
-                                          paste0("Ecoli_10kb_", param, "_rep2_ws", i, ".bed")),
+                                          paste0(rep, "_ws", i, ".bed")),
                 quote=F, row.names=F, col.names=F,sep = "\t")
   })
 })
