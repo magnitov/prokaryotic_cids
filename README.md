@@ -1,5 +1,9 @@
 # Benchmark of software tools for prokaryotic chromosomal interaction domain identification
 
+Mikhail D Magnitov, Veronika S Kuznetsova, Sergey V Ulianov, Sergey V Razin, Alexander V Tyakht (2020). Benchmark of software tools for prokaryotic chromosomal interaction domain identification.
+
+doi: [10.1093/bioinformatics/btaa555](https://doi.org/10.1093/bioinformatics/btaa555)
+
 **Datasets used:**
 * *Caulobacter crescentus* (Le *et al.*, *Science*, 2013)
 * *Bacillus subtilis* (Wang *et al.*, *Genes Dev.*, 2015; Marbouty *et al.*, *Mol. Cell*, 2015)
